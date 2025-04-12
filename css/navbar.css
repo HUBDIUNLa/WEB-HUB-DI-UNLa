@@ -1,3 +1,66 @@
+
+
+/* NAV GENERAL */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6a4b8e;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.brand-logo {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-button {
+  color: white;
+  background: none;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav-links a {
+    padding: 1rem;
+    border-top: 1px solid #ffffff33;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
+
 .navbar {
     background-color:var(--primary-color);
     display: flex;
