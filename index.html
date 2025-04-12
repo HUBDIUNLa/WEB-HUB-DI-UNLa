@@ -61,16 +61,19 @@
     
     <body class="bg-[#f9f7f4] text-[#222] font-sans pt-20"> <!-- Compensa altura del menú fijo -->
     
-      <!-- NAV -->
-      <nav class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 px-6 py-3 flex justify-between items-center">
-        <a href="#inicio" class="text-xl font-bold text-[#6A0DAD] hover:underline">HUB INCUBACION DE DISEÑO UNLa</a>
-        <ul class="flex gap-4 text-sm font-semibold text-[#222]">
-        <li><a href="#sobre" class="hover:text-[#6A0DAD]">Sobre Nosotros</a></li>
-        <li><a href="#proyectos" class="hover:text-[#6A0DAD]">Proyectos</a></li>
-        <li><a href="#estudios" class="hover:text-[#6A0DAD]">HUB</a></li>
-        <li><a href="#comunidad" class="hover:text-[#6A0DAD]">Consultas</a></li>
-        </ul>
-      </nav>
+<!-- NAV RESPONSIVE -->
+<nav class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 px-6 py-3 flex items-center justify-between">
+  <a href="#inicio" class="text-lg sm:text-xl font-bold text-[#6A0DAD] hover:underline">HUB INCUBACION DE DISEÑO UNLa</a>
+  <div class="sm:hidden">
+    <button id="menu-toggle" class="text-[#6A0DAD] text-3xl">&#9776;</button>
+  </div>
+  <ul id="menu" class="hidden sm:flex gap-4 text-sm font-semibold text-[#222]">
+    <li><a href="#sobre" class="hover:text-[#6A0DAD]">Sobre Nosotros</a></li>
+    <li><a href="#proyectos" class="hover:text-[#6A0DAD]">Proyectos</a></li>
+    <li><a href="#estudios" class="hover:text-[#6A0DAD]">HUB</a></li>
+    <li><a href="#comunidad" class="hover:text-[#6A0DAD]">Consultas</a></li>
+  </ul>
+</nav>
     
       <!-- HERO con logo de fondo -->
 
