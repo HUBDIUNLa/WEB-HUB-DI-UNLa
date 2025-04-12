@@ -24,6 +24,32 @@
 }
 
 .nav-button {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #6a4b8e;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+.nav-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* negrita */
+    background: none;
+    border: none;
+    color: #000; /* o el color que estés usando */
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    color: #54002b; /* ejemplo de hover, podés personalizarlo */
+  }
+
+.nav-button {
     border: 1px solid var(--tan-color);
     background-color: var(--tan-color) ;
     color: white;
