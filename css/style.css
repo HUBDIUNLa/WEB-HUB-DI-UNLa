@@ -21,9 +21,10 @@ html {
   }
   
   .nosotros-box {
-    background-color: #54002b;
-    border-radius: 12px;
+    background-color: #a2263f;
+    color: white; /* opcional, para asegurar contraste */
     padding: 1.5rem;
+    border-radius: 1rem;
     max-width: 800px;
     margin: 2rem auto 0 auto;
   }
